@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+
+body {
+  font-family: Open Sans !important;
+  background-color: #f0f2f5;
+  margin: 0px;
+  padding: 0px;
+}
+.top-div {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100vh;
+}
+.center-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.facebook-text,
+p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  margin: 0px;
+}
+
+h2 {
+  margin-bottom: 5px;
+  color: #1877f2;
+}
+.bottom-div {
+  background-color: white;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.card-input {
+  display: flex;
+  flex-direction: column;
+}
+input {
+  margin-bottom: 5px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  border: 2px solid #f0f2f5;
+}
+.login-btn {
+  width: 100%;
+  background-color: #1877f2;
+  border: none;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+.button-text,
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+}
+.creat-button,
+.new-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.new-button {
+  margin-top: 30px;
+  border: none;
+  padding: 5px;
+  border-radius: 5px ;
+  background-color: #42b72a;
+  color: white;
+  font-size: 12px;
+}
+.creat-button {
+  margin-top: 25px;
+  border-top: 1px solid rgb(90, 87, 87);
+}
+ input::placeholder{
+ font-size: 11px;
+ }
